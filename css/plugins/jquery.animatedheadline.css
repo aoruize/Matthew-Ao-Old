@@ -551,7 +551,6 @@
 }
 .cd-headline.slide .cd-words-wrapper {
     overflow: hidden;
-    width: 100%;
     vertical-align: top;
     color: #f2c063;
     font-weight: bold;
@@ -693,6 +692,8 @@
 .cd-headline.clip .cd-words-wrapper {
     overflow: hidden;
     vertical-align: top;
+    color: #f2c063;
+    font-weight: bold;
 }
 .cd-headline.clip .cd-words-wrapper::after {
     /* line */
