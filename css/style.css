@@ -775,12 +775,12 @@ blockquote span img {
 
 .home .banner {
 	display: flex;
-	flex-flow: column;
+	flex-flow: column nowrap;
 	justify-content: space-around;
 	align-items: center;
 	position: absolute; 
 	width: 100%;
-    top: 10vw;
+    top: 25%;
 	color: #fff;
 }
 
