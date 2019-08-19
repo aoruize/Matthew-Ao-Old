@@ -65,7 +65,7 @@ a {
 
 a:hover, 
 a:focus {
-	color: #1b7fd6;
+	color: #f2c063;
 }
 
 h1,
@@ -1221,6 +1221,13 @@ blockquote span img {
 
 .resume .experience .bord-l {
 	border-left: 1px solid #383838;
+}
+
+.resume .experience .bord-1 .icon img {
+	max-width: 50px;
+	height: auto;
+	-webkit-border-radius: 100%;
+    border-radius: 100%;
 }
 
 .resume .experience .main p {
