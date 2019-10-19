@@ -358,8 +358,8 @@ h1, h2, h3, h4,
 }
 
 .page-loader {
-    -webkit-mask: url(../images/sprite.png);
-    mask: url(../images/sprite.png);
+    -webkit-mask: url(../images/sprite-2.png);
+    mask: url(../images/sprite-2.png);
     -webkit-mask-size: 2300% 100%;
     mask-size: 2300% 100%;
     -webkit-animation: introPreloader2 .7s steps(22) forwards;
@@ -1204,7 +1204,7 @@ h1, h2, h3, h4,
 .testimonials .name-job .job {
     color: rgba(185, 185, 185, 0.53);
     margin-top: 8px;
-    font-size: 17px;
+    font-size: 17px ;
     font-weight: 500;
 }
 
@@ -1247,6 +1247,23 @@ h1, h2, h3, h4,
 /*=================================*/
 /*  11.Contact Section 
 /*=================================*/
+
+.contact .content {
+    text-align: center;
+}
+
+.contact .content i {
+    font-size: 44px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.contact .content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+    text-transform: capitalize;
+}
 
 input.form-control {
     width: calc(50% - 10px);
