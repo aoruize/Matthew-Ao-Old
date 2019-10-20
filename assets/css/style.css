@@ -358,12 +358,12 @@ h1, h2, h3, h4,
 }
 
 .page-loader {
-    -webkit-mask: url(../images/sprite-2.png);
+    /*-webkit-mask: url(../images/sprite-2.png);
     mask: url(../images/sprite-2.png);
     -webkit-mask-size: 2300% 100%;
     mask-size: 2300% 100%;
     -webkit-animation: introPreloader2 .7s steps(22) forwards;
-    animation: introPreloader2 .7s steps(22) forwards;
+    animation: introPreloader2 .7s steps(22) forwards;*/
 }
 
 .animi-loader {
