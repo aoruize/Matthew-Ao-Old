@@ -1189,6 +1189,7 @@ input.form-control:last-of-type {
     height: 130px;
 }
 
+.blog form .btn:focus,
 .blog form .btn {
     color: #fff;
     border: 2px solid #000000;
@@ -1230,7 +1231,6 @@ input.form-control:last-of-type {
 }
 
 .blog form .btn:active,
-.blog form .btn:focus,
 .blog form .btn:hover {
     color: #000;
     background-color: transparent;
