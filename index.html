@@ -9,9 +9,6 @@
                 window.location.protocol = "https";
         </script>
 
-        <!-- Mailchimp Popup Form -->
-        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"a10dd33714a59c25347ceb640","lid":"430cc0056e","uniqueMethods":true}) })</script>
-
         <!-- META DATA -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,6 +19,14 @@
 
         <!-- favicon -->
         <link id="favicon" rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+        <!-- mailchimp -->
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <!--style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style-->
 
         <!-- Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CMontserrat:300,400,500,600,700,800,900">
@@ -602,7 +607,7 @@
                         <div class="sec_title">
                             <div class="white">
                                 <p>experiences</p>
-                                <h2>where i've worked</h2>
+                                <h2>resume</h2>
                             </div>
                         </div>
                         <div class="owl-carousel" id="testimonial-carousel">
@@ -672,8 +677,9 @@
                     <div class="container">
                         <div class="sec_title">
                             <p>newsletter</p>
-                            <h2>my monthly blog</h2>
+                            <h2>my journey 🚀</h2>
                         </div>
+                        
                         <div class="row">
 
                             <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4 item">
@@ -713,6 +719,24 @@
                                 </div>
                             </div-->
 
+
+                        <!-- Begin Mailchimp Signup Form -->
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="contact_form">
+                                    
+                                    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=a10dd33714a59c25347ceb640&amp;id=430cc0056e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div class="row">
+                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                                <input type="text" name="b_a10dd33714a59c25347ceb640_430cc0056e" tabindex="-1" value="">
+                                            </div>
+                                        </div>
+                                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
+                                    </form>
+                                </div>
+                            </div>
+                            <!--End mc_embed_signup-->
+                            
                         </div><!--.row-->
                     </div><!--.container-->
                 </section>
