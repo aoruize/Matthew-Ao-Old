@@ -1411,6 +1411,7 @@ input.form-control:last-of-type {
     height: 130px;
 }
 
+.contact form .btn:focus,
 .contact form .btn {
     color: #fff;
     border: 2px solid #000000;
@@ -1452,7 +1453,6 @@ input.form-control:last-of-type {
 }
 
 .contact form .btn:active,
-.contact form .btn:focus,
 .contact form .btn:hover {
     color: #000;
     background-color: transparent;
