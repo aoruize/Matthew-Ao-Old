@@ -1293,7 +1293,10 @@
 
                                     <div class="contact_form">
                                         
-                                        <form name="contact" method="POST" action="success" netlify>
+                                        <form name="contact" method="POST" action="success" netlify-honeypot="bot-field" netlify>
+                                            <p class="hidden">
+                                                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                            </p>
                                             <div class="row">
                                                 <input placeholder="Name" type="text" name="Name" class="form-control" required>
                                                 <input placeholder="Email" type="email" name="Email" class="form-control" required>
